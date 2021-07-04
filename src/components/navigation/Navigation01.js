@@ -20,7 +20,7 @@ const Navigation01 = () => (
 				h='full'
 			>
 				<HStack>
-					<Icon as={Zap} w={6} h={6} />
+					<Icon as={Zap} w={6} h={6} color='purple.200' />
 					<Text fontSize='lg'>Cirrus</Text>
 				</HStack>
 				<HStack spacing={12}>
