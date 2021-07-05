@@ -13,7 +13,7 @@ import { Zap } from 'react-feather';
 import dashboard from '../../assets/dashboard.png';
 
 const Navigation01 = () => (
-	<Flex w='full' h='960px' bg='gray.50' mt={8}>
+	<Flex w='full' h='6xl' bg='gray.900' mt={8}>
 		<Container maxW='container.xl'>
 			<VStack
 				p={4}
@@ -22,9 +22,9 @@ const Navigation01 = () => (
 				w='full'
 				h='full'
 				spacing={16}
-				mt={16}
 			>
 				<VStack
+					color='white'
 					justifyContent='center'
 					alignItems='center'
 					maxW='40rem'
@@ -33,12 +33,12 @@ const Navigation01 = () => (
 					<Box
 						p={6}
 						rounded='full'
-						borderColor='gray.100'
+						borderColor='gray.700'
 						borderWidth={1}
-						bg='gray.50'
+						bg='gray.700'
 						boxShadow='xl'
 					>
-						<Icon as={Zap} color='purple.500' w={12} h={12} />
+						<Icon as={Zap} color='green.500' w={12} h={12} />
 					</Box>
 					<Heading
 						as='h1'
@@ -48,13 +48,13 @@ const Navigation01 = () => (
 					>
 						The best way to organize your work
 					</Heading>
-					<Text fontSize='2xl' textAlign='center' lineHeight='base'>
+					<Text fontSize='xl' textAlign='center' lineHeight='base'>
 						Cirrus is the only platform you need for managing your
 						remote team communications.
 					</Text>
 					<Button
 						p={8}
-						bg='purple.500'
+						bg='green.500'
 						color='white'
 						fontSize='lg'
 						boxShadow='xl'
