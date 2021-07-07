@@ -3,6 +3,7 @@ import Navigation01 from '../components/navigation/Navigation01';
 import Header01 from '../components/headers/Header01';
 import Features01 from '../components/features/Features01';
 import Content01 from '../components/content/Content01';
+import Content02 from '../components/content/Content02';
 
 const Index = () => (
 	<VStack w='100vw' spacing={0}>
@@ -10,7 +11,7 @@ const Index = () => (
 		<Header01 />
 		<Features01 />
 		<Content01 />
-		<Flex></Flex>
+		<Content02 />
 		<Flex></Flex>
 		<Flex></Flex>
 		<Flex></Flex>

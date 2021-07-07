@@ -35,7 +35,7 @@ const Features01 = () => (
 						size='xl'
 						textAlign='center'
 					>
-						Go beyond unlimited features
+						The ultimate SaaS Landing Pages kit
 					</Heading>
 					<Text
 						w='2xl'
@@ -44,14 +44,15 @@ const Features01 = () => (
 						lineHeight='base'
 					>
 						Focus only on the meaning, we take care of the design.
-						As soon as the meeting ends you can export in one click
-						into your preferred format.
+						Accelerate your development workflow with cloneable
+						interface elements and components. Mix and match till
+						you get what you desire.
 					</Text>
 				</Flex>
 				<Grid
 					w='full'
 					templateColumns='repeat(4, 1fr)'
-					gap={8}
+					gap={12}
 					color='white'
 				>
 					<GridItem>
@@ -74,7 +75,8 @@ const Features01 = () => (
 							REST API or GraphQL
 						</Heading>
 						<Text>
-							See where you’re making and spending money in real.
+							Accelerate your development workflow with cloneable
+							interface elements and components.
 						</Text>
 					</GridItem>
 					<GridItem>
@@ -97,7 +99,8 @@ const Features01 = () => (
 							High Performance
 						</Heading>
 						<Text>
-							See where you’re making and spending money in real.
+							Accelerate your development workflow with cloneable
+							interface elements and components.
 						</Text>
 					</GridItem>
 					<GridItem>
@@ -120,7 +123,8 @@ const Features01 = () => (
 							Visual Database
 						</Heading>
 						<Text>
-							See where you’re making and spending money in real.
+							Accelerate your development workflow with cloneable
+							interface elements and components.
 						</Text>
 					</GridItem>
 					<GridItem>
@@ -148,7 +152,8 @@ const Features01 = () => (
 							Payments API
 						</Heading>
 						<Text>
-							See where you’re making and spending money in real.
+							Accelerate your development workflow with cloneable
+							interface elements and components.
 						</Text>
 					</GridItem>
 				</Grid>
