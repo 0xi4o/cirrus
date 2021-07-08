@@ -41,7 +41,7 @@ const Pricing01 = () => (
 				</Flex>
 				<Flex color='white' spacing={8} w='full'>
 					<Tabs
-						variant='soft-rounded'
+						variant='unstyled'
 						justifyContent='center'
 						alignItems='center'
 					>
@@ -60,19 +60,19 @@ const Pricing01 = () => (
 								borderRadius='xl'
 							>
 								<Tab
+									borderRadius='lg'
 									_selected={{
 										color: 'white',
 										bg: 'green.500',
-										borderRadius: 'xl',
 									}}
 								>
 									Monthly
 								</Tab>
 								<Tab
+									borderRadius='lg'
 									_selected={{
 										color: 'white',
 										bg: 'green.500',
-										borderRadius: 'xl',
 									}}
 								>
 									Yearly
